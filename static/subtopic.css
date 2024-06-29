@@ -5,6 +5,7 @@
 }
 body{
     min-height: 100vh;
+    min-width: 100vw;
 }
 .body{
     padding-left: 2rem;
@@ -153,7 +154,7 @@ a{
     color: #121212;
     font-size: 1rem;
 }
-@media  screen and (max-width:450px) {
+@media  screen and (max-width:560px) {
     .navbar a{
         font-size: .9rem;
     }

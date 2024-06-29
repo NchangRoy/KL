@@ -5,6 +5,8 @@
 body{
    height: auto;
    display: flex;
+   flex-shrink: 1;
+   min-width: 100vw;
    flex-direction: column;
 
 }
@@ -127,7 +129,7 @@ img{
     color: #121212;
     font-size: 1rem;
 }
-@media  screen and (max-width:450px) {
+@media  screen and (max-width:560px) {
     .navbar a{
         font-size: .9rem;
     }
